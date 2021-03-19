@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<title>Practica 7 | Formulario </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1"> 
+<meta name="description " content="Mi primer página web ">
+<meta name="author " content="Mayguali Guadalupe MC">
+<meta name="keywords" content="Programación Web">
+<link href="estilo/css/bootstrap.css" rel="stylesheet">
+<link href="estilo/css/style.css" rel="stylesheet">
+</head>
+<body background="imagenes/f7.jpg">
+
+<h5 style="background-color:white ;" align="center">
+  <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="tarea1.html">Tarea 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="tarea2.html">Curriculum</a>
+  </li>
+  <li class="nav-item">
+  <a class="nav-link" href="tarea3.html">Linea del tiempo</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="grid.html">Collage</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="tareaformulario.html" tabindex="-1" aria-disabled="true">Formulario</a>
+  </li>
+   </ul> 
+ </h5>
+
+
+
+
+ <div class="row">  
+   <div class="col-sm-12">
+    <br>
+      <h1 style="background-color:white ;" align="center">Practica 7</h1>
+      <hr>
+  </div>
+  
+  <div class="col-md-4 offset-sm-4">
+    <br>
+  
+      <h3 style="background-color:white ;" align="center">Mayguali Guadalupe</h3>
+      <h3 style="background-color:white ;" align="center">Martínez Casillas</h3>
+      <br>
+      
+     <p style="background-color:white ;" align="center"> <p> &#128151; &#128507; &#127803;  &#127846; &#127827; &#127774; &#127775; &#127804; &#127817;  &#127855; &#127867;   &#127880; &#127906;   &#127926; &#127944;   &#128037;   &#128525; </p>
+      <hr>
+      <form class="" action="index.html" method="get">
+
+        <b><label for="nombre">Nombre</label></b>
+        <input  class="form-control" type="text" name="nombre" value="" placeholder="Nombre" required style="color:Tomato;>
+        <br>
+        <b><label for="nombre">Apellido</label></b>
+        <input  class="form-control" type="text" name="apellido" value="" placeholder="Apellido" required>
+        <br>
+        <b><label for="nombre">Correo electonico</label></b>
+        <input  class="form-control" type="email" name="correo" value="" placeholder="Ejemplo: Maria@gmail.com" required>
+        <br>
+        <b><label for="fecha">Fecha</label></b>
+        <input class="form-control" type="date" name="fecha"><br>
+        <br>
+        <b><label for="contraseña">Contraseña</label></b>
+        <input class="form-control" type="password" name="contraseña" value="123456789" required> <br>
+        <br>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" required>
+        <b><option selected>Sexo</option></b>
+        <option value="1">Hombre</option>
+        <option value="2">Mujer</option>
+        <option value="3">No especifico</option>
+        </select><br>
+
+
+        <b><label for="pregunta"> Idioma </label></b>
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="español" value="español" id="flexCheckDefault" required="">
+        <label class="form-check-label" for="flexCheckDefault">
+        Español
+       </label>
+       </div>
+       <div class="form-check">
+       <input class="form-check-input" type="checkbox" name="ingles "value="ingles " id="flexCheckChecked">
+       <label class="form-check-label" for="flexCheckChecked">
+        Ingles
+      </label>
+      </div> 
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="frances "value="frances" id="flexCheckDefault" value="">
+        <label class="form-check-label" for="flexCheckDefault">
+        Frances
+       </label>
+       </div>
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="portugues "value="portugues" id="flexCheckDefault" value="">
+        <label class="form-check-label" for="flexCheckDefault">
+        Portugues
+       </label>
+       </div>
+      <br>
+
+
+<b><label for="pregunta"> ¿TE GUSTA LA SOPA?</label></b>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="SI" id="flexRadioDefault1" value="SI">
+  <label class="form-check-label" for="flexRadioDefault1">
+    SI
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="SI" id="flexRadioDefault2" value="SI">
+  <label class="form-check-label" for="flexRadioDefault2">
+    NO
+  </label>
+</div><br>
+
+
+        <input class="btn btn-primary" type="submit" name="" value="Enviar" align="center" >
+        
+        </form>
+      
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
